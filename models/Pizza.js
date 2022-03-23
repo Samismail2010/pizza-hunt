@@ -4,10 +4,14 @@ const dateFormat = require('../utils/dateFormat');
 //when users create a new pizza
 const PizzaSchema = new Schema({
     pizzaName: {
-        type: String
+        type: String,
+        required: true,
+        trim: true
     },
     createdBy: {
-        type: String
+        type: String,
+        required: true,
+        trim: true
     },
     //timestamp field
     createdAt: {
@@ -17,6 +21,8 @@ const PizzaSchema = new Schema({
     },
     size: {
         type: String,
+        required: true,
+        enum: ['Personal', 'Small', 'Medium', 'Large', 'Extra Large'],
         default: 'Large'
     },
     //indicates an array as a data type
