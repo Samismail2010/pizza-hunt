@@ -5,16 +5,11 @@
 Pizza Hunt is a web application designed to allow users to share and discover new pizza recipes. Users can customize their pizzas by adding toppings and other ingredients, creating a vibrant community-driven collection of pizza recipes.
 
 ## Table of Contents
-
+- [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Features](#features)
-- [Usage](#usage)
-- [Dependencies](#dependencies)
-- [Configuration](#configuration)
-
 - [Contributors](#contributors)
-- [License](#license)
 
 ## Technologies Used
 
@@ -26,9 +21,11 @@ Pizza Hunt is a web application designed to allow users to share and discover ne
 - **Database**: MongoDB
 
 ## Features
-### Create Recipes: Users can submit their pizza recipes, including the toppings, sauces, and cheeses they use.
-### Interactive Community: Users can comment on each other's recipes and suggest improvements or variations.
-### Recipe Rating: Recipes can be rated by the community to surface the most popular and tasty pizzas
+**Create Recipes:** Users can submit their pizza recipes, including the toppings, sauces, and cheeses they use.
+
+**Interactive Community:** Users can comment on each other's recipes and suggest improvements or variations.
+
+**Recipe Rating:** Recipes can be rated by the community to surface the most popular and tasty pizzas
 
 ## Installation
 
