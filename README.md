@@ -12,17 +12,23 @@ Pizza Hunt is a web application designed to allow users to share and discover ne
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Configuration](#configuration)
-- [Examples](#examples)
+
 - [Contributors](#contributors)
 - [License](#license)
 
 ## Technologies Used
 
-Pizza Hunt is built with the following technologies:
-
-- **Languages**: JavaScript, HTML, CSS
-- **Frameworks/Libraries**: Node.js, Express, Bootstrap
+- JavaScript
+- Node.js
+- Express.js
+- CSS
+- HTML
 - **Database**: MongoDB
+
+## Features
+# Create Recipes: Users can submit their pizza recipes, including the toppings, sauces, and cheeses they use.
+# Interactive Community: Users can comment on each other's recipes and suggest improvements or variations.
+# Recipe Rating: Recipes can be rated by the community to surface the most popular and tasty pizzas
 
 ## Installation
 
@@ -37,3 +43,4 @@ cd pizza-hunt
 
 # Install the dependencies
 npm install
+
